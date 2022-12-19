@@ -68,15 +68,25 @@ body {
   color: var(--primary-color);
 }
 
-.menu::after {
+.active::after {
+  content:'';
+  width:58px;
+  height:4px;
+  background-color:var(--primary-color);
+  position:absolute;
+  top: 28px;
+  left:0;
+  }
+
+/* .menu::after {
   position: absolute;
-  content:"";
+  content:'';
   color: var(--primary-color);
   text-decoration: underline;
   text-underline-offset: 28px;
   text-decoration-thickness: 4px;
   border-radius: 2px;
-}
+} */
 
 .site-nav {
   border-bottom: 2px solid #ececec;
