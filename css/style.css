@@ -355,6 +355,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 /* .titles-box {
@@ -401,12 +404,19 @@ body {
   position: relative;
 }
 
+.li-no-list img {   
+  vertical-allign:middle;
+ }
+
 .our-team {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .lorem-section {
