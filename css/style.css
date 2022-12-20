@@ -195,7 +195,7 @@ body {
 
 .active::after {
   content:'';
-  width:58px;
+  width: 58px;
   height:4px;
   background-color:var(--primary-color);
   position:absolute;
@@ -372,9 +372,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 27px 90px 27px 90px;
+  padding: 27px 90px 27px 90px auto;
   font-size: 0.875rem;
   color: var(--basic-white-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  vertical-align: middle;
 }
 
 
