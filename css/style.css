@@ -357,7 +357,7 @@ body {
   flex-direction: column;
 }
 
-.titles-box {
+/* .titles-box {
   width: 370px;
   height: 70px;
   background-color: #2F303ACC;
@@ -365,7 +365,7 @@ body {
   bottom:0;
   opacity: 88%;
 
-}
+} */
 
 .titles-box-p {
   text-transform: uppercase;
@@ -379,6 +379,12 @@ body {
   bottom: 0;
   width: 100%;
   vertical-align: middle;
+  width: 370px;
+  height: 70px;
+  background-color: #2F303ACC;
+  /* position: absolute;
+  bottom:0; */
+  opacity: 88%;
 }
 
 
