@@ -239,13 +239,13 @@ body {
   font-family: 'Roboto', sans-serif;
   fill: currentColor;
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-links:hover {
+.contact-links:hover .contact-icon {
   color: var(--primary-color);
   text-decoration: underline;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .wrapper {
@@ -353,16 +353,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
 }
-
-/* .titles-box {
-  width: 370px;
-  height: 70px;
-  background-color: #2F303ACC;
-  position: absolute;
-  bottom:0;
-  opacity: 88%;
-
-} */
 
 .titles-box-p {
   text-transform: uppercase;
@@ -566,7 +556,6 @@ vertical-align: middle;
   color: var(--second-primary-color);
   padding-left: 24px;
   padding-right: 24px;
-  /* margin: left 24px; */
 }
 
 
@@ -689,14 +678,12 @@ vertical-align: middle;
 
 .atuts-icon {
   fill: #212121;
-  position: relative;
-  transition: fill 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .atuts-icon:hover {
   fill: var(--primary-color);
   stroke: var(--primary-color);
-  transition: fill 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lorem-icon {
@@ -757,8 +744,6 @@ vertical-align: middle;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  position: relative;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .sm-icons {
@@ -768,14 +753,13 @@ vertical-align: middle;
 .sm-circle:hover > .sm-icons,
 .sm-circle:focus > .sm-icons {
   fill: var(--basic-white-color);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  
 }
 
 .sm-circle:hover,
 .sm-circle:focus {
   background-color: var(--primary-color);
   outline: none;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 /* Our clinets section */
