@@ -901,3 +901,11 @@ vertical-align: middle;
   pointer-events: none;
 }
 
+.close-icon {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 3px;
+  left: 4px;
+  color: var(--second-primary-color);
+}
